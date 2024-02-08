@@ -4,8 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js", 
-    "dev": "nodemon app.js"
+    "start": "node app.js", //system will run node app.js when we type npm start
+    "dev": "nodemon app.js"//system will run app.js in nodemon mode when we type npm run dev   nodemon will check for changes and automatically restart server
   },
   "repository": {
     "type": "git",
